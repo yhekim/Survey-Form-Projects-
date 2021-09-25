@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./css/netflix.png" type="image/gif">
+    <title>Survey Form Projes</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <header id="header">
+            <h1 id="title">NET<span>FLIX</span></h1>
+            <h3 id="description">Thank you for signing up to Netfix.Tell us more about your self</h3>
+        </header>
+        <section id="survey-form-container">
+            <div id="survey-form">
+                <form action="result.html" method="GET">
+                    <div class="input-box">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" style="color: gray;" placeholder="Enter your name" value="">
+                    </div>
+                    <div class="input-box">
+                        <label for="age">Age</label><br>
+                        <input type="number" id="age" name="age" style="color: gray;" placeholder="Age" min="0">
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email" style="color: gray;" placeholder="Email" value="">
+                    </div>
+                    <div class="input-box">
+                        <label for="content">Content</label><br>
+                        <select name="content" id="dropdown">
+                            <option value="movie" >Movie</option>
+                            <option value="series"selected>Series</option>
+                        </select>
+
+                    </div>
+                    <div class="input-box">
+                        <label for="movie">Movie Types</label><br>
+                        <input type="checkbox" name="movie" id="first-check" value="comedy">
+                        <label for="first-check">Comedy</label><br>
+                        <input type="checkbox" name="movie" id="second-check" value="action">
+                        <label for="second-check">Action</label><br>
+
+                        <input type="checkbox" name="movie" id="third-check" value="romans">
+                        <label for="third-check">Romans</label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="gender">Gender</label><br>
+
+                        <input type="radio" id="first-radio" name="gender" value="male">
+                        <label for="first-radio">Male</label><br>
+                        <input type="radio" id="second-radio" name="gender" value="female">
+                        <label for="second-radio">Female</label><br>
+                        <input type="radio" id="third-radio" name="gender" value="other">
+                        <label for="third-radio">Others</label>
+                    </div>
+                    <div class="input-box">
+                        <label for="feedback">Feedback</label><br>
+                        <textarea name="" id="feedback" placeholder="Any comments" rows="8"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" id="form-submit">Send</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+
+    </div>
+
+</body>
+
+</html>
