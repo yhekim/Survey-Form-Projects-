@@ -1,13 +1,13 @@
 ## Survey Form Projects Page
 
--  https://yhekim.github.io/Clarusway-Frontend-Projects-VoltranClub/
+-  https://yhekim.github.io/Survey-Form-Projects-/
 
 -  Here are the web components we designed using HTML5 and CSS3. 
 
 -  Here are page structures made usign HTML5 and CSS3 that you can use everywhere.
 
 
-![gif](https://raw.githubusercontent.com/yhekim/Clarusway-Frontend-Projects-VoltranClub/main/VoltranClub.gif)
+![gif](https://raw.githubusercontent.com/yhekim/Survey-Form-Projects-/main/Survey-form.gif)
 
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
