@@ -1,6 +1,6 @@
 ## Survey Form Projects Page
 
--  https://yhekim.github.io/Survey-Form-Projects-/
+-  https://amazing-hugle-46d624.netlify.app/
 
 -  Here are the web components we designed using HTML5 and CSS3. 
 
